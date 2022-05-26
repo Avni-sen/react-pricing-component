@@ -3,7 +3,7 @@ import { useContext } from "react";
 import { PricingContext } from "../context/PricingContext";
 
 const PricingCard = () => {
-  const { allPricing, enabled, setenabled } = useContext(PricingContext);
+  const { allPricing, enabled } = useContext(PricingContext);
   return (
     <div className="w-full flex flex-col  items-center justify-center ">
       {enabled ? (

@@ -1,9 +1,9 @@
-import { useState, useContext } from "react";
+import { useContext } from "react";
 import { Switch } from "@headlessui/react";
 import { PricingContext } from "../context/PricingContext";
 
 export default function Toogle() {
-  const { allPricing, enabled, setEnabled } = useContext(PricingContext);
+  const { enabled, setEnabled } = useContext(PricingContext);
 
   return (
     <div className="mx-4 py-1">

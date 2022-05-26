@@ -4,7 +4,7 @@ import Toogle from "./components/Toogle";
 import PricingCard from "./components/PricingCard";
 
 function App() {
-  const { allPricing, enabled, setEnabled } = useContext(PricingContext);
+  const {} = useContext(PricingContext);
   return (
     <div className="bg-slate-800 w-full h-screen p-20">
       <div className="flex justify-center items-center">
